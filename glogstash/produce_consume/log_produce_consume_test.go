@@ -45,13 +45,13 @@ func TestProduce2(t *testing.T) {
 	}
 
 	defer conn.Close()
-	client := NewLogStashClient(conn)
+	client := proto.NewLogStashClient(conn)
 
 	for i := 0; i < 10000; i++ {
-		log := Log{
+		log := proto.Log{
 			App:        "test",
 			Module:     "consume",
-			Level:      Log_Info,
+			Level:      proto.Log_Info,
 			TraceId:    "123",
 			Message:    []byte("456"),
 			Exception:  nil,
