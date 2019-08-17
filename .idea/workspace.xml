@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56183fc9-4a43-41a1-bccd-e2831335cb57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/glogclient/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glogclient/client_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glogstash/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glogstash/config/config_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glogstash/cmd/buildandrun.sh" beforeDir="false" afterPath="$PROJECT_DIR$/glogstash/cmd/buildandpush.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glogstash/cmd/glogstash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glogstash/config/glogstash.go" beforeDir="false" afterPath="$PROJECT_DIR$/glogclient/config/glogclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glogstash/config/glogstash_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/glogclient/config/glogclient_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,31 +22,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proto/log.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proto/log.pb.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1836">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="165">
+              <caret line="262" column="5" selection-start-line="262" selection-start-column="5" selection-end-line="262" selection-end-column="5" />
+              <folding>
+                <element signature="e#86#290#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/glogstash/cmd/buildandpush.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="18" column="88" lean-forward="true" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -46,44 +45,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/glogstash/glogstash.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding>
-                <element signature="e#14#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#13#86#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume.go">
+        <entry file="file://$PROJECT_DIR$/glogstash/config/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="720">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <element signature="e#13#151#0" expanded="true" />
+                <element signature="e#16#67#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/glogstash/cmd/buildandrun.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -98,10 +73,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/glogstash/config/glogstash.go">
+        <entry file="file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="884">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="21" />
+              <folding>
+                <element signature="e#13#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proto/log.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/glogclient/client_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#20#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/glogclient/config/glogclient.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="e#16#67#0" expanded="true" />
               </folding>
@@ -110,8 +118,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/glogstash/config/glogstash_test.go">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/glogclient/client.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <element signature="e#20#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -135,7 +150,15 @@
         <option value="$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume.go" />
         <option value="$PROJECT_DIR$/glogstash/glogstash.go" />
         <option value="$PROJECT_DIR$/glogstash/cmd/buildandrun.sh" />
+        <option value="$PROJECT_DIR$/proto/log.pb.go" />
+        <option value="$PROJECT_DIR$/glogclient/config/glogclient_test.go" />
+        <option value="$PROJECT_DIR$/glogclient/client.go" />
+        <option value="$PROJECT_DIR$/glogclient/config/glogclient.go" />
+        <option value="$PROJECT_DIR$/glogstash/config/glogstash.go" />
+        <option value="$PROJECT_DIR$/glogclient/client_test.go" />
         <option value="$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go" />
+        <option value="$PROJECT_DIR$/glogstash/buildandpush.sh" />
+        <option value="$PROJECT_DIR$/glogstash/cmd/buildandpush.sh" />
       </list>
     </option>
   </component>
@@ -170,7 +193,12 @@
               <item name="glog" type="b2602c69:ProjectViewProjectNode" />
               <item name="glog" type="462c0819:PsiDirectoryNode" />
               <item name="glogstash" type="462c0819:PsiDirectoryNode" />
-              <item name="produce_consume" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glog" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,13 +214,18 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/glogstash/cmd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gomodproj\glog\glogstash\cmd" />
+      <recent name="E:\gomodproj\glog\glogstash" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gomodproj\glog\glogclient" />
       <recent name="E:\gomodproj\glog\glogstash\cmd" />
       <recent name="E:\gomodproj\glog\glogstash\produce_consume" />
       <recent name="E:\gomodproj\glog\glogstash" />
@@ -211,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestConsume_getIndexName in glog/glogstash/produce_consume">
+  <component name="RunManager" selected="Go Build.go build glogstash.go">
     <configuration name="go build glogstash.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="glog" />
       <working_directory value="$PROJECT_DIR$" />
@@ -228,28 +261,69 @@
       <pattern value="^TestConsume_getIndexName$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestProduce2 in glog/glogstash/produce_consume" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="glog" />
+      <working_directory value="$PROJECT_DIR$/glogstash/produce_consume" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="glog/glogstash/produce_consume" />
+      <pattern value="^TestProduce2$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSend in glog/glogclient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="glog" />
+      <working_directory value="$PROJECT_DIR$/glogclient" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="glog/glogclient" />
+      <pattern value="^TestSend$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestConsume_getIndexName in glog/glogstash/produce_consume" />
         <item itemvalue="Go Build.go build glogstash.go" />
+        <item itemvalue="Go Test.TestProduce2 in glog/glogstash/produce_consume" />
+        <item itemvalue="Go Test.TestSend in glog/glogclient" />
+        <item itemvalue="Go Test.TestConsume_getIndexName in glog/glogstash/produce_consume" />
       </list>
     </recent_temporary>
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestConsume_getIndexName_in_glog_glogstash_produce_consume - 2019.08.17 at 13h 23m 03s.xml">
+      <configuration name="TestConsume_getIndexName in glog/glogstash/produce_consume" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSend_in_glog_glogclient - 2019.08.17 at 16h 54m 10s.xml">
+      <configuration name="TestSend in glog/glogclient" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSend_in_glog_glogclient - 2019.08.17 at 16h 54m 26s.xml">
+      <configuration name="TestSend in glog/glogclient" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSend_in_glog_glogclient - 2019.08.17 at 16h 56m 01s.xml">
+      <configuration name="TestSend in glog/glogclient" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestProduce2_in_glog_glogstash_produce_consume - 2019.08.17 at 16h 56m 24s.xml">
+      <configuration name="TestProduce2 in glog/glogstash/produce_consume" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestProduce2_in_glog_glogstash_produce_consume - 2019.08.17 at 16h 56m 53s.xml">
+      <configuration name="TestProduce2 in glog/glogstash/produce_consume" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.31737193" />
+      <window_info anchor="bottom" id="Terminal" weight="0.45100224" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2260579" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3608018" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -270,15 +344,88 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/glogclient/client.go</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/glogstash/config/config_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="60" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/go/pkg/mod/google.golang.org/grpc@v1.19.0/clientconn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="105" column="57" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4412">
+          <caret line="129" column="5" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="129" selection-end-column="5" />
+          <folding>
+            <element signature="e#13#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glogclient/config/glogclient_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glogclient/config/glogclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="e#16#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glogclient/client_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#20#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glogclient/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#20#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proto/log.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -286,32 +433,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proto/log.pb.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1836">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="262" column="5" selection-start-line="262" selection-start-column="5" selection-end-line="262" selection-end-column="5" />
+          <folding>
+            <element signature="e#86#290#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glogstash/config/glogstash_test.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/glogstash/config/glogstash.go">
+    <entry file="file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="884">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="21" />
           <folding>
-            <element signature="e#16#67#0" expanded="true" />
+            <element signature="e#13#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -323,40 +460,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glogstash/cmd/buildandrun.sh">
+    <entry file="file://$PROJECT_DIR$/glogstash/config/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="720">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#13#151#0" expanded="true" />
+            <element signature="e#16#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/glogstash/glogstash.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#14#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glogstash/produce_consume/log_produce_consume_test.go">
+    <entry file="file://$PROJECT_DIR$/glogstash/cmd/buildandpush.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#13#86#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="548">
+          <caret line="18" column="88" lean-forward="true" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
         </state>
       </provider>
     </entry>

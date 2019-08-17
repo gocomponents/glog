@@ -39,7 +39,7 @@ func TestProduce(t *testing.T) {
 
 //TODO:grpc client
 func TestProduce2(t *testing.T) {
-	conn, err := grpc.Dial("127.0.0.1:8080", grpc.WithInsecure())
+	conn, err := grpc.Dial("47.244.216.246:18080", grpc.WithInsecure())
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -61,7 +61,8 @@ func TestProduce2(t *testing.T) {
 		}
 
 		timer := time.Now()
-		client.Send(context.Background(), &log)
+		_,err:=client.Send(context.Background(), &log)
+		fmt.Println(err)
 		fmt.Println(time.Since(timer))
 
 	}
