@@ -53,7 +53,7 @@ func TestProduce2(t *testing.T) {
 			Module:     "consume",
 			Level:      proto.Log_Info,
 			TraceId:    "123",
-			Message:    []byte("456"),
+			Message:    "456",
 			Exception:  nil,
 			UserIp:     "192.168.11.11",
 			ExecTime:   12,
